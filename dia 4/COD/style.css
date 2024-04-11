@@ -1,126 +1,101 @@
-* {
-  padding: 4px;
-  margin: 0px;
+body{
+  background-color: black;
+}
+.cuerpo{
+
+  display: grid;
+  margin: 1px auto;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  
+  
+}
+.cuerpo img,
+.cuerpo video{
+  border-radius: 4%;
+  margin:1.5%;
+  width: 100%;
+  height: auto;
+}
+.imagen1{
+  margin:1.5%;
+
+  grid-column: 1;
+  grid-row: 2;
+}
+.imagen2{
+  margin:1.5%;
+
+  grid-column: 2;
+  grid-row: 1;
+}
+.video1{
+  margin:1.5%;
+
+  grid-column: 2;
+  grid-row: 2;
+}
+.video2{
+  margin:1.5%;
+
+  grid-column: 1;
+  grid-row: 1;
+  max-width: 100%;
+  max-height: 100%;
+}
+.video3{
+  margin:1.5%;
+
+  grid-column: 1;
+  grid-row: 1;
+  max-width: 100%;
+  align-self: flex-end;
+
+}
+.cuerpo2{
+  display: grid;
+  margin: 1px auto;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto;
+}
+.cuerpo3 img, .cuerpo2 video{
+  border-radius: 4%;
+  margin: 1%;
+  width: 100%;
+  height: auto;
+}
+.videopag1{
+  margin: 1.5%;
+  grid-column: 1;
+  grid-row: 3; 
+}
+.imagenpag3{
+  margin: 1.5%;
+  grid-column: 2;
+  grid-row: 3;
+  
+} 
+.videopag2{
+  margin: 1.5;
+  grid-column: 1;
+  grid-row: 1;
+
+}
+.videopag5{
+  margin: 1.5%;
+  grid-column: 2;
+  grid-row: 2;
+
+}
+.videopag4{
+  margin: 1.5%;
+  grid-column: 1;
+  grid-row: 2;
+
 }
 
-html {
-  background: #0a0a0a;
-}
-
-body {
-  height: 750px;
-  width: 750px;
-  background: #0A0A0A;
-  margin: auto;
-}
-
-header {
-  height: 300px;
-  width: 750px;
-  background: #0A0A0A;
-}
-
-.CODfrontLine {
-  height: 300px;
-  width: 740px;
-  border-radius: 10px;
-  background: #0A0A0A;
-  margin: auto;
-}
-
-main {
-  height: 400px;
-  width: 750px;
-  background: #0A0A0A;
-}
-
-.GhostZombie_Ladoizquierdo {
-  height: 390px;
-  width: 340px;
-  border-radius: 10px;
-  background: #0A0A0A;
-  float: left;
-  margin: 2px;
-  margin-top: -3px;
-  margin-left: -5px;
-}
-
-.Buzzkills {
-  height: 189px;
-  width: 385px;
-  border-radius: 10px;
-  background: #0A0A0A;
-  float: right;
-  margin: 2px;
-  padding-right: 0px;
-  margin-top: -15px;
-}
-
-.yutuCOD {
-  height: 190px;
-  width: 385px;
-  border-radius: 10px;
-  background: #0A0A0A;
-  float: right;
-  margin: 2px;
-  padding-right: 0px;
-  margin-top: auto;
-}
-
-.Gif_Tableta{
-  height: 190px;
-  width: 385px;
-  border-radius: 10px;
-  background: #0A0A0A;
-  float: left;
-  margin: 2px;
-  padding-right: 0px;
-  margin-top: auto;
-}
-
-.moneda_de_CP{
-  height: 190px;
-  width: 385px;
-  border-radius: 10px;
-  background: #0A0A0A;
-  float: left;
-  margin: 2px;
-  padding-right: 0px;
-  margin-top: auto;
-}
-
-.Blackcell_Abolisher{
-  height: 390px;
-  width: 385px;
-  border-radius: 10px;
-  background: #0A0A0A;
-  float: left;
-  margin: 2px;
-  padding-right: 0px;
-  margin-top: 0px;
-  margin-bottom: 4px;
-}
-
-.Imagen_operador_oni{
-  height: 390px;
-  width: 340px;
-  border-radius: 10px;
-  background: #0A0A0A;
-  float: right;
-  margin: 2px;
-  padding-right: 0px;
-  margin-top: -200px;
-}
-
-
-.Buso_Warzone{
-  height: 390px;
-  width: 340px;
-  border-radius: 10px;
-  background: #0A0A0A;
-  float: right;
-  margin: 2px;
-  padding-right: 0px;
-  margin-top: auto;
-  margin-bottom: 4px;
+.videopag3{
+  margin: 1.5%;
+  grid-column: 2;
+  grid-row: 1;
 }
