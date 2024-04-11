@@ -58,7 +58,7 @@ body{
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto auto;
 }
-.cuerpo3 img, .cuerpo2 video{
+.cuerpo2 img, .cuerpo2 video{
   border-radius: 4%;
   margin: 1%;
   width: 100%;
